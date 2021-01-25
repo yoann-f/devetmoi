@@ -1,0 +1,68 @@
+/* ///////////////////////////////// */
+/* ////////// DEFAULT CSS ////////// */
+/* ///////////////////////////////// */
+
+
+/* ELEMENTS DU HEADER */
+header {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    border: brown 2px solid;
+}
+
+/* HEADER: LOGO */
+.logo {
+    margin-left: 10%;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* HEADER: MENU DE NAVIGATION PRINCIPAL */
+.menu_principal {
+    margin-right: 10%;
+}
+
+.menu_principal .menu_navigation {
+    height: 8em;
+    align-items: center;
+}
+
+ul.menu_navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-right: 2em;
+}
+
+ul.menu_navigation li {
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+
+/* ELEMENT DU MAIN */
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: orangered 2px solid;
+}
+
+/* MAIN: CONTENU #1 */
+.contenu_1 {
+    width: 80%;
+}
+
+.slider img {
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+}
